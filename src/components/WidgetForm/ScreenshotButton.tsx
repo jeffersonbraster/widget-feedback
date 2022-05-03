@@ -3,15 +3,15 @@ import { Camera, Trash } from "phosphor-react";
 import html2canvas from "html2canvas";
 import Loading from "../Loading";
 
-type ScrennshotButtonProps = {
+type ScreenshotButtonProps = {
   screenshot: string | null;
   onScreenshotTook: (screenshot: string | null) => void;
 };
 
-const ScrennshotButton = ({
+const ScreenshotButton = ({
   onScreenshotTook,
   screenshot,
-}: ScrennshotButtonProps) => {
+}: ScreenshotButtonProps) => {
   const [isTakingScreenshot, setIsTakingScreenshot] = useState(false);
 
   const handleTakeScreenshot = async () => {
@@ -53,4 +53,4 @@ const ScrennshotButton = ({
   );
 };
 
-export default ScrennshotButton;
+export default ScreenshotButton;
