@@ -1,5 +1,5 @@
 import CloseButton from "../../CloseButton";
-import imgSuccess from "../../../assets/imgs/success.svg";
+import imgSuccess from "../../../assets/imgs/Success.svg";
 
 type FeedbackSuccessProps = {
   restartFeedback: () => void;
