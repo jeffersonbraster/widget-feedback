@@ -1,6 +1,6 @@
-import bugImgUrl from "../assets/imgs/bug.svg";
-import ideaImgUrl from "../assets/imgs/idea.svg";
-import thoughtImgUrl from "../assets/imgs/thought.svg";
+import bugImgUrl from "../assets/imgs/Bug.svg";
+import ideaImgUrl from "../assets/imgs/Idea.svg";
+import thoughtImgUrl from "../assets/imgs/Thought.svg";
 
 const feedbackTypes = {
   BUG: {
